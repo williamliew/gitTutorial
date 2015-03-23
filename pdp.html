@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
 
@@ -50,9 +49,9 @@
   <![endif]-->
 </head>
 
-<body id="ng-app" data-ng-app="ngaCompareApp" class="page-compare">
+<body id="ng-app" data-ng-app="ngaCompareApp" class="page-pdp">
 
-<section class="bestbuy-wrapper"><!-- Sections have been added to differentiate sections of Future Shop from Best Buy -->
+<div class="bestbuy-wrapper"><!-- divs have been added to differentiate parts of Future Shop from Best Buy -->
   <!-- Start Best Buy Mobile navigation -->
   <nav class="mobile-nav visible-sm visible-xs">
     <!-- Add visible-sm and visible-xs to display this header -->
@@ -64,7 +63,7 @@
           <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
             <i class="fa fa-bars light-gradient-bg"></i>
           </a>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+          <ul class="dropdown-menu" role="menu">
             <li>
               <header>Menu</header>
             </li>
@@ -89,7 +88,7 @@
           <a id="dLabel2" data-target="#" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
             <i class="fa fa-search light-gradient-bg"></i>
           </a>
-          <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="dLabel">
+          <ul class="dropdown-menu dropdown-menu-right" role="menu">
             <li>
               <input type="text" placeholder="Search Keywords">
             </li>
@@ -100,10 +99,10 @@
     </ul>
   </nav>
   <!-- End Best Buy Mobile navigation -->
-</section>
+</div>
 
 
-<section class="futureshop-wrapper">
+<div class="futureshop-wrapper">
   <!-- Start Future Shop Mobile navigation -->
   <nav class="mobile-nav visible-sm visible-xs">
     <ul class="mobile-nav-elements list-inline">
@@ -116,7 +115,7 @@
             <i class="fa fa-bars light-gradient-bg"></i>
             <p>Menu</p>
           </a>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+          <ul class="dropdown-menu" role="menu">
             <li>
               <header>Menu</header>
             </li>
@@ -143,13 +142,12 @@
             <i class="fa fa-search light-gradient-bg"></i>
             <p>Search</p>
           </a>
-          <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="dLabel">
+          <ul class="dropdown-menu dropdown-menu-right" role="menu">
             <li>
               <input type="text" placeholder="Search Keywords">
             </li>
           </ul>
         </div>
-
       </li>
     </ul>
   </nav>
@@ -167,7 +165,7 @@
           <p>Discover more categories.</p>
         </li>
         <li>
-          <button><i class="fa fa-forward"></i> Shop now</button>
+          <button type="button"><i class="fa fa-forward"></i> Shop now</button>
         </li>
       </ul>
     </div>
@@ -196,7 +194,7 @@
 
         <div class="col-md-6">
           <input type="text" placeholder="Search for products, articles, &amp; help topics" class="search-bar" id="product-search">
-          <button class="search-button"><i class="fa fa-search"></i></button>
+          <button type="button" class="search-button"><i class="fa fa-search"></i></button>
         </div>
 
         <div class="col-md-2">
@@ -228,9 +226,9 @@
     </div>
   </div>
   <!-- End Future Shop Navigation -->
-</section>
+</div>
 
-<section class="bestbuy-wrapper">
+<div class="bestbuy-wrapper">
   <!-- Start Best Buy Tablet/desktop navigation -->
   <nav class="main-nav hidden-sm hidden-xs">
     <div class="container ie8-blue-bg">
@@ -258,7 +256,7 @@
 
         <div class="col-md-5">
           <input type="text" placeholder="Search for products, articles, &amp; help topics" class="search-bar" id="product-search2">
-          <button class="search-button"><i class="fa fa-search"></i></button>
+          <button type="button" class="search-button"><i class="fa fa-search"></i></button>
         </div>
 
         <div class="col-md-5">
@@ -286,596 +284,380 @@
     </div>
     <!-- End container -->
   </nav>
-</section>
+</div>
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-6 visible-md visible-lg">
+    <div class="row hidden-xs hidden-sm">
+      <div class="col-md-6">
         <a href="#" title="Go back">Back to Search Results</a>
       </div>
       <!-- End col-md-12 -->
-
-      <div class="col-md-6 visible-md visible-lg">
+      <div class="col-md-6">
         <ul class="pull-right page-options list-inline">
           <li><a href="#" title="Email"><i class="fa fa-envelope-o"></i> Email a friend</a></li>
           <li><a href="#" title="Print"><i class="fa fa-print"></i> Print</a></li>
           <li><a href="#" title="Bookmark"><i class="fa fa-bookmark-o"></i> Bookmark</a></li>
         </ul>
       </div>
+    </div>
+    <!-- End row -->
+    <div class="row">
+      <div class="col-sm-12 hidden-xs">
+        <ol class="breadcrumb">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Video Games</a></li>
+          <li><a href="#">Gaming Playsets</a></li>
+          <li><a href="#">Nintendo amiibo</a></li>
+          <li class="active">Product Information</li>
+        </ol>
+      </div>
+      <!-- End col-sm-12 -->
+      <div class="col-md-8 col-xs-12">
+        <h2>amiibo Super Mario Bros. Yoshi Figure</h2>
+        <p>Model #: NVLCABAD | Web Code: 10361697 | Release Date: 03/20/2015</p>
+      </div>
+      <!-- End col-md-6 -->
+      <div class="col-md-4 hidden-xs">
+        <strong>No reviews yet</strong>
+        <p>Be the first to <a href="#" title="Write a review">write a review</a></p>
+      </div>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="images/placeholders/amiibo-logo.gif" alt="Amiibo">
 
-      <div class="col-sm-12">
-        <h1>Compare Product Results</h1>
-        <!-- Table striped, table-responsive are Bootstrap classes. Three-columns is used to make all columns an equal width -->
-        <table class="table compare-table table-striped table-responsive table-hover three-columns hidden-xs">
-          <tr class="white-bg">
-            <!-- Start remove row -->
-            <td></td>
-            <td><i class="fa fa-minus-circle remove"></i> <a href="#" title="Remove">Remove</a></td>
-            <td><i class="fa fa-minus-circle remove"></i> <a href="#" title="Remove">Remove</a></td>
-            <td><i class="fa fa-minus-circle remove"></i> <a href="#" title="Remove">Remove</a></td>
-            <td><i class="fa fa-minus-circle remove"></i> <a href="#" title="Remove">Remove</a></td>
-          </tr>
-          <!-- End remove row -->
+        <div id="product-images" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#product-images" data-slide-to="0" class="active"></li>
+            <li data-target="#product-images" data-slide-to="1"></li>
+            <li data-target="#product-images" data-slide-to="2"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/placeholders/amiibo-yoshi.jpg" alt="Yoshi Amiibo" class="centered-img">
+            </div>
+            <div class="item">
+              <img src="images/placeholders/amiibo-yoshi2.jpg" alt="Yoshi Amiibo" class="centered-img">
+            </div>
+            <div class="item">
+              <img src="images/placeholders/amiibo-yoshi3.jpg" alt="Yoshi Amiibo" class="centered-img">
+            </div>
+          </div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#product-images" role="button" data-slide="prev">
+            <span class="fa fa-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#product-images" role="button" data-slide="next">
+            <span class="fa fa-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <hr>
 
-          <tr class="white-bg">
-            <!-- Start product feature row -->
-            <td></td>
-            <td data-ng-controller="sellerInformationController" data-ng-cloak>
-              <img alt="" src="images/placeholders/amiibo-yoshi.jpg" class="centered-img">
-              <img alt="" src="images/placeholders/amiibo-logo.gif" class="centered-img">
-              <a href="#" title="Amiibo">amiibo Super Smash Bros Yoshi Figure (NVLCAAAC)</a>
-              <h4>$13.99</h4>
-              <strong>Online</strong>
-              <p class="sold-by-container" data-sold-by></p>
-              <p><i class="fa fa-check available"></i> Available online</p>
-              <strong>Local Store</strong>
-              <p><i class="fa fa-check available"></i> Reservable in store</p>
-            </td>
-            <td>
-              <img alt="" src="images/placeholders/amiibo-bowser.jpg" class="centered-img">
-              <img alt="" src="images/placeholders/amiibo-logo.gif" class="centered-img">
-              <a href="#" title="Amiibo">amiibo Super Smash Bros Bowser Figure (NVLCAAAW)</a>
-              <h4>$13.99</h4>
-              <strong>Online</strong>
-              <p><i class="fa fa-check available"></i> Available online</p>
-              <strong>Local Store</strong>
-              <p><i class="fa fa-ban"></i> Availability information not available</p>
-            </td>
-            <td>
-              <img alt="" src="images/placeholders/amiibo-toad.jpg" class="centered-img">
-              <img alt="" src="images/placeholders/amiibo-logo.gif" class="centered-img">
-              <a href="#" title="Amiibo">amiibo Super Mario Bros. Toad Figure</a>
-              <h4>$13.99</h4>
-              <strong>Online</strong>
-              <p><i class="fa fa-check available"></i> Available online</p>
-              <strong>Local Store</strong>
-              <p><i class="fa fa-ban"></i> Availability information not available</p>
-            </td>
-            <td>
-              <img alt="" src="images/placeholders/amiibo-pikachu.jpg" class="centered-img">
-              <img alt="" src="images/placeholders/amiibo-logo.gif" class="centered-img">
-              <a href="#" title="Amiibo">amiibo Super Smash Bros Pikachu Figure (NVLCAAAK)</a>
-              <h4>$13.99</h4>
-              <strong>Online</strong>
-              <p><i class="fa fa-check available"></i> Available online</p>
-              <strong>Local Store</strong>
-              <p><i class="fa fa-ban"></i> Availability information not available</p>
-            </td>
-          </tr>
-          <!-- End product feature row -->
+        <ul class="product-preview list-inline">
+          <!-- TODO: JS so the item that is being shown above this list should have the class of active - Adam -->
+          <li data-target="#product-images" data-slide-to="0"><img src="images/placeholders/amiibo-yoshi.jpg" alt="Yoshi Amiibo" class="active"></li>
+          <li data-target="#product-images" data-slide-to="1"><img src="images/placeholders/amiibo-yoshi2.jpg" alt="Yoshi Amiibo"></li>
+          <li data-target="#product-images" data-slide-to="2"><img src="images/placeholders/amiibo-yoshi3.jpg" alt="Yoshi Amiibo"></li>
+        </ul>
 
-          <tr class="white-bg no-border-top ie-add-to-cart-row">
-            <!-- Add to Cart row used to equalize spacing of buttons -->
-            <td></td>
-            <td>
-              <button class="primary-button">Add to Cart</button>
-            </td>
-            <td>
-              <button class="primary-button">Add to Cart</button>
-            </td>
-            <td>
-              <button class="primary-button disabled" disabled>Sold Out</button>
-            </td>
-            <td>
-              <button class="primary-button">Add to Cart</button>
-            </td>
-          </tr>
-
-          <tr>
-            <!-- Start rating row -->
-            <td>Overall Rating</td>
-            <td>
-              <div class="ratings">
-                <i class="fa fa-star highlighted"></i>
-                <i class="fa fa-star highlighted"></i>
-                <i class="fa fa-star highlighted"></i>
-                <i class="fa fa-star highlighted"></i>
-                <i class="fa fa-star"></i>
-                <p class="ratings-amount">3 Ratings</p>
+      </div>
+      <div class="col-md-6">
+        <!-- Start product information -->
+        <div class="col-md-4">
+          <h1>$13.99</h1>
+        </div>
+        <div class="col-md-8">
+          <ul>
+            <li><a href="#" title="Free shipping on orders over $25">Free shipping* on orders over <strong>$25</strong> (excludes products with scheduled delivery)</a></li>
+            <li><a href="#" title="Earn Reward Zone points on all your purchases">Earn Reward Zone points on all your purchases</a></li>
+            <li><a href="#" title="Easy Returns">Easy Returns</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12">
+          <div class="well product-info">
+            <div class="row">
+              <div class="col-md-12">
+                <strong>Online |</strong>
+                <p>Delivered to Burnaby</p>
+                <a href="#" title="Change">Change</a>
               </div>
-            </td>
-            <td>
-              <div class="ratings">
-                <i class="fa fa-star highlighted"></i>
-                <i class="fa fa-star highlighted"></i>
-                <i class="fa fa-star highlighted"></i>
-                <i class="fa fa-star highlighted"></i>
-                <i class="fa fa-star"></i>
-                <p class="ratings-amount">3 Ratings</p>
+              <div class="col-md-6">
+                <p><a href="#" title="Pre-Orders">Pre-Orders:</a> This product is scheduled to arrive in our warehouse on 03/20/2014</p>
+                <strong>Limited Quantity Available</strong>
               </div>
-            </td>
-            <td>
-              <div class="ratings">
-                <i class="fa fa-star highlighted"></i>
-                <i class="fa fa-star highlighted"></i>
-                <i class="fa fa-star highlighted"></i>
-                <i class="fa fa-star highlighted"></i>
-                <i class="fa fa-star"></i>
-                <p class="ratings-amount">3 Ratings</p>
+              <div class="col-md-6">
+                <button class="primary-button disabled" disabled type="button">Sold Out</button>
               </div>
-            </td>
-            <td>
-              <div class="ratings">
-                <i class="fa fa-star highlighted"></i>
-                <i class="fa fa-star highlighted"></i>
-                <i class="fa fa-star highlighted"></i>
-                <i class="fa fa-star highlighted"></i>
-                <i class="fa fa-star"></i>
-                <p class="ratings-amount">3 Ratings</p>
+            </div>
+            <!-- End Row -->
+
+            <div class="row">
+              <div class="col-md-6">
+                <strong>Local Store</strong>
+                <p>Availability information not available</p>
+                <p>information Not Available</p>
               </div>
-            </td>
-          </tr>
-          <!-- End rating row -->
-
-          <tr>
-            <!-- Start color row -->
-            <td>Colour</td>
-            <td>Green</td>
-            <td>Green</td>
-            <td>Green</td>
-            <td>Green</td>
-          </tr>
-          <!-- End color row -->
-
-          <tr>
-            <!-- Start pattern/theme row -->
-            <td>Pattern/Theme</td>
-            <td>Super Smash Bros</td>
-            <td>Super Smash Bros</td>
-            <td>Super Mario Series</td>
-            <td>Super Mario Series</td>
-          </tr>
-          <!-- End pattern/theme row -->
-
-          <tr>
-            <!-- Start width row -->
-            <td>Width</td>
-            <td>12.9 cm</td>
-            <td>12.9 cm</td>
-            <td>12.9 cm</td>
-            <td>12.9 cm</td>
-          </tr>
-          <!-- End width row -->
-
-          <tr>
-            <!-- Start height row -->
-            <td>Height</td>
-            <td>19.0 cm</td>
-            <td>19.0 cm</td>
-            <td>19.0 cm</td>
-            <td>19.0 cm</td>
-          </tr>
-          <!-- End height row -->
-
-          <tr>
-            <!-- Start depth row -->
-            <td>Depth</td>
-            <td>9.2 cm</td>
-            <td>9.19 cm</td>
-            <td>9.2 cm</td>
-            <td>9.19 cm</td>
-          </tr>
-          <!-- End depth row -->
-
-          <tr>
-            <!-- Start width row (Inches) -->
-            <td>Width (Inches)</td>
-            <td>5.1 in</td>
-            <td>5.1 in</td>
-            <td>5.1 in</td>
-            <td>5.1 in</td>
-          </tr>
-          <!-- End width row -->
-
-          <tr>
-            <!-- Start height row (Inches) -->
-            <td>Height (Inches)</td>
-            <td>7.5 in</td>
-            <td>7.5 in</td>
-            <td>7.5 in</td>
-            <td>7.5 in</td>
-          </tr>
-          <!-- End height row -->
-
-          <tr>
-            <!-- Start depth row (Inches) -->
-            <td>Depth (inches)</td>
-            <td>3.6 in</td>
-            <td>3.6 in</td>
-            <td>3.6 in</td>
-            <td>3.6 in</td>
-          </tr>
-          <!-- End depth row -->
-
-          <tr>
-            <!-- Start Weight row -->
-            <td>Weight</td>
-            <td>0.16 in</td>
-            <td>0.16 in</td>
-            <td>0.16 in</td>
-            <td>0.16 in</td>
-          </tr>
-          <!-- End weight row -->
-
-          <tr class="white-bg">
-            <!-- Start product feature row -->
-
-            <td></td>
-
-            <td data-ng-controller="sellerInformationController" data-ng-cloak>
-              <img alt="" src="images/placeholders/amiibo-yoshi.jpg" class="centered-img">
-              <img alt="" src="images/placeholders/amiibo-logo.gif" class="centered-img">
-              <a href="#" title="Amiibo">amiibo Super Smash Bros Yoshi Figure (NVLCAAAC)</a>
-              <h4>$13.99</h4>
-              <strong>Online</strong>
-              <div data-sold-by></div>
-              <p><i class="fa fa-check available"></i> Available online</p>
-              <strong>Local Store</strong>
-              <p><i class="fa fa-check available"></i> Reservable in store</p>
-            </td>
-
-            <td>
-              <img alt="" src="images/placeholders/amiibo-bowser.jpg" class="centered-img">
-              <img alt="" src="images/placeholders/amiibo-logo.gif" class="centered-img">
-              <a href="#" title="Amiibo">amiibo Super Smash Bros Bowser Figure (NVLCAAAW)</a>
-              <h4>$13.99</h4>
-              <strong>Online</strong>
-              <p><i class="fa fa-check available"></i> Available online</p>
-              <strong>Local Store</strong>
-              <p><i class="fa fa-ban"></i> Availability information not available</p>
-            </td>
-
-            <td>
-              <img alt="" src="images/placeholders/amiibo-toad.jpg" class="centered-img">
-              <img alt="" src="images/placeholders/amiibo-logo.gif" class="centered-img">
-              <a href="#" title="Amiibo">amiibo Super Mario Bros. Toad Figure</a>
-              <h4>$13.99</h4>
-              <strong>Online</strong>
-              <p><i class="fa fa-check available"></i> Available online</p>
-              <strong>Local Store</strong>
-              <p><i class="fa fa-ban"></i> Availability information not available</p>
-            </td>
-
-            <td>
-              <img alt="" src="images/placeholders/amiibo-pikachu.jpg" class="centered-img">
-              <img alt="" src="images/placeholders/amiibo-logo.gif" class="centered-img">
-              <a href="#" title="Amiibo">amiibo Super Smash Bros Pikachu Figure (NVLCAAAK)</a>
-              <h4>$13.99</h4>
-              <strong>Online</strong>
-              <p><i class="fa fa-check available"></i> Available online</p>
-              <strong>Local Store</strong>
-              <p><i class="fa fa-ban"></i> Availability information not available</p>
-            </td>
-
-          </tr>
-          <!-- End product feature row -->
-
-          <tr class="white-bg no-border-top ie-add-to-cart-row">
-            <!-- Add to Cart row used to equalize spacing of buttons -->
-            <td></td>
-            <td>
-              <button class="primary-button">Add to Cart</button>
-            </td>
-            <td>
-              <button class="primary-button">Add to Cart</button>
-            </td>
-            <td>
-              <button class="primary-button disabled" disabled>Sold Out</button>
-            </td>
-            <td>
-              <button class="primary-button">Add to Cart</button>
-            </td>
-          </tr>
-
-          <tr class="white-bg">
-            <!-- Start remove row -->
-            <td></td>
-            <td><i class="fa fa-minus-circle remove"></i> <a href="#" title="Remove">Remove</a></td>
-            <td><i class="fa fa-minus-circle remove"></i> <a href="#" title="Remove">Remove</a></td>
-            <td><i class="fa fa-minus-circle remove"></i> <a href="#" title="Remove">Remove</a></td>
-            <td><i class="fa fa-minus-circle remove"></i> <a href="#" title="Remove">Remove</a></td>
-          </tr>
-          <!-- End remove row -->
-
-        </table>
-
-        <div class="row hidden-sm hidden-md hidden-lg">
-          <div class="col-sm-12">
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingOne">
-                  <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Yoshi Amiibo Figure <span class="pull-right">$14.99</span>
-                          </a>
-                        </h4>
-                </div>
-
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                  <div class="panel-body">
-                    <img src="images/placeholders/amiibo-yoshi.jpg" alt="" class="centered-img half-size">
-                    <img src="images/placeholders/amiibo-logo.gif" alt="" class="centered-img">
-                    <div class="col-xs-4">
-                      <strong>Online</strong>
-                    </div>
-                    <div class="col-xs-8">
-                      <p>Same day FREE shipping</p>
-                    </div>
-                    <div class="col-xs-4">
-                      <strong class="available">In Stock</strong>
-                    </div>
-                    <div class="col-xs-8">
-                      <p>Reservable in Store</p>
-                    </div>
-                    <div class="col-sm-12">
-                      <button class="primary-button">Add to Cart</button>
-                    </div>
-
-                    <table class="table-responsive table-striped compare-table-mobile">
-                      <thead>
-                        <tr>
-                          <th colspan="2">Specifications</th>
-                        </tr>
-                      </thead>
-
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>Rating</p>
-                          </td>
-                          <td>
-                            <div class="ratings">
-                              <i class="fa fa-star highlighted"></i>
-                              <i class="fa fa-star highlighted"></i>
-                              <i class="fa fa-star highlighted"></i>
-                              <i class="fa fa-star highlighted"></i>
-                              <i class="fa fa-star"></i>
-                              <p class="ratings-amount">3 Ratings</p>
-                            </div>
-                          </td>
-                        </tr>
-
-                        <tr>
-                          <td>Size</td>
-                          <td>53 cm x 24 cm</td>
-                        </tr>
-
-                        <tr>
-                          <td>Weight</td>
-                          <td>154 kg</td>
-                        </tr>
-
-                        <tr>
-                          <td>Etc</td>
-                          <td>Something else</td>
-                        </tr>
-                      </tbody>
-
-                    </table>
-                  </div>
-                </div>
+              <div class="col-md-6">
+                <button type="button" class="special-button" data-toggle="modal" data-target="#product-protection">Reserve In Store</button>
               </div>
+            </div>
 
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingTwo">
-                  <h4 class="panel-title">
-                          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Bowser Amiibo Figure <span class="pull-right">$14.99</span>
-                          </a>
-                        </h4>
-                </div>
-
-                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                  <div class="panel-body">
-                    <img src="images/placeholders/amiibo-bowser.jpg" alt="" class="centered-img half-size">
-                    <img src="images/placeholders/amiibo-logo.gif" alt="" class="centered-img">
-
-                    <div class="col-xs-4">
-                      <strong>Online</strong>
-                    </div>
-
-                    <div class="col-xs-8">
-                      <p>Same day FREE shipping</p>
-                    </div>
-
-                    <div class="col-xs-4">
-                      <strong class="available">In Stock</strong>
-                    </div>
-
-                    <div class="col-xs-8">
-                      <p>Reservable in Store</p>
-                    </div>
-
-                    <div class="col-sm-12">
-                      <button class="primary-button">Add to Cart</button>
-                    </div>
-
-                    <table class="table-responsive table-striped compare-table-mobile">
-                      <thead>
-                        <tr>
-                          <th colspan="2">Specifications</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>Rating</p>
-                          </td>
-                          <td>
-
-                            <div class="ratings">
-                              <i class="fa fa-star highlighted"></i>
-                              <i class="fa fa-star highlighted"></i>
-                              <i class="fa fa-star highlighted"></i>
-                              <i class="fa fa-star highlighted"></i>
-                              <i class="fa fa-star"></i>
-                              <p class="ratings-amount">3 Ratings</p>
-                            </div>
-
-                          </td>
-                        </tr>
-
-                        <tr>
-                          <td>Size</td>
-                          <td>53 cm x 24 cm</td>
-                        </tr>
-
-                        <tr>
-                          <td>Weight</td>
-                          <td>154 kg</td>
-                        </tr>
-
-                        <tr>
-                          <td>Etc</td>
-                          <td>Something else</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
+            <div class="row well-footer">
+              <div class="col-md-6">
+                <p>Household Limit: 1</p>
               </div>
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingThree">
-                  <h4 class="panel-title">
-                          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Toad Amiibo Figure <span class="pull-right">$14.99</span>
-                          </a>
-                        </h4>
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                  <div class="panel-body">
-                    <img src="images/placeholders/amiibo-toad.jpg" alt="" class="centered-img half-size">
-                    <img src="images/placeholders/amiibo-logo.gif" alt="" class="centered-img">
+              <div class="col-md-6">
+                <a href="#" title="Add to Wish List">Add to Wish List</a>
+                <a href="#" title="Add to Price Watch">Add to Price Watch</a>
+              </div>
+            </div>
+          </div><!-- End Well -->
 
-                    <div class="col-xs-4">
-                      <strong>Online</strong>
-                    </div>
+          <!-- Social Links: Additional code for this can be found before the body tag -->
+          <div class="g-plusone" data-size="medium"></div>
+          <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+          <a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" ><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" alt="Pinterest"></a>
+          <!-- Please call pinit.js only once per page -->
+          <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+          <!-- End Social Links -->
 
-                    <div class="col-xs-8">
-                      <p>Same day FREE shipping</p>
-                    </div>
-
-                    <div class="col-xs-4">
-                      <strong class="available">In Stock</strong>
-                    </div>
-
-                    <div class="col-xs-8">
-                      <p>Reservable in Store</p>
-                    </div>
-
-                    <div class="col-sm-12">
-                      <button class="primary-button">Add to Cart</button>
-                    </div>
-
-                    <table class="table-responsive table-striped compare-table-mobile">
-                      <thead>
-                        <tr>
-                          <th colspan="2">Specifications</th>
-                        </tr>
-                      </thead>
-
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>Rating</p>
-                          </td>
-
-                          <td>
-                            <div class="ratings">
-                              <i class="fa fa-star highlighted"></i>
-                              <i class="fa fa-star highlighted"></i>
-                              <i class="fa fa-star highlighted"></i>
-                              <i class="fa fa-star highlighted"></i>
-                              <i class="fa fa-star"></i>
-                              <p class="ratings-amount">3 Ratings</p>
-                            </div>
-                          </td>
-                        </tr>
-
-                        <tr>
-                          <td>Size</td>
-                          <td>53 cm x 24 cm</td>
-                        </tr>
-
-                        <tr>
-                          <td>Weight</td>
-                          <td>154 kg</td>
-                        </tr>
-
-                        <tr>
-                          <td>Etc</td>
-                          <td>Something else</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
+        </div><!-- End col-sm-12 -->
+      </div><!-- End product information -->
+    </div> <!-- End row -->
+    <div class="row">
+      <div class="col-xs-12 hidden-md hidden-lg">
+        <!-- Start panel for mobile -->
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+              <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Details &amp; Specs
+            </a>
+          </h4>
+            </div>
+            <div id="collapseOne" class="details-and-specs-accordion panel-collapse collapse in" role="tabpanel">
+              <div class="panel-body">
+                <p>Looking to take your gaming to another level? amiibo character figures let you open up new experiences for your game. Just tap your amiibo on the Wii U gamepad and the figure will come alive and interact with the compatible game in surprising ways. Your amiibo stores your game data as you play, letting you customize your character and gameplay.</p>
+                <h4>What&#39;s in the box?</h4>
+                <ul>
+                  <li>Figurine</li>
+                </ul>
+                <h4>Product Features</h4>
+                <ul>
+                  <li>amiibo figurine interacts with a compatible game to open up new game play experiences</li>
+                  <li>Your amiibo stores your game data as you play, letting you customize your character and gameplay</li>
+                  <li>Figure compatible with Super Smash Bros for Wii U</li>
+                  <li>Super Smash Bros and Wii U each sold separately</li>
+                </ul>
+                <h4>Specifications</h4>
+                <table class="table-striped table-responsive">
+                  <tr>
+                    <td>Pattern/Theme</td>
+                    <td>Super Mario Series</td>
+                  </tr>
+                  <tr>
+                    <td>Width</td>
+                    <td>12.90 cm</td>
+                  </tr>
+                  <tr>
+                    <td>Height</td>
+                    <td>19.00 cm</td>
+                  </tr>
+                  <tr>
+                    <td>Depth</td>
+                    <td>9.19 cm</td>
+                  </tr>
+                  <tr>
+                    <td>Width (Inches)</td>
+                    <td>5.08 in</td>
+                  </tr>
+                  <tr>
+                    <td>Height (Inches)</td>
+                    <td>7.48 in</td>
+                  </tr>
+                  <tr>
+                    <td>Depth (Inches)</td>
+                    <td>3.62 in</td>
+                  </tr>
+                  <tr>
+                    <td>Weight</td>
+                    <td>.16 g</td>
+                  </tr>
+                  <tr>
+                    <td>Warranty Parts</td>
+                    <td>30 Day(s)</td>
+                  </tr>
+                  <tr>
+                    <td>Web Code</td>
+                    <td>10361697</td>
+                  </tr>
+                </table>
               </div>
             </div>
           </div>
-        </div>
-
-        <h2 class="more-to-explore hidden-sm hidden-xs">More to Explore</h2>
-        <div class="gray-border hidden-sm hidden-xs">
-          <!-- Start more to explore section -->
-
-          <div class="col-sm-12 col-lg-4">
-            <!-- Start ad block -->
-            <a href="#" title="2014 Tax Central">
-              <img src="images/placeholders/tax-software.jpg" class="centered-img" alt="2014 Tax Central">
-              <strong>2014 TAX CENTRAL</strong>
-              <p>Simplify your taxes maximize your return</p>
-              <p>Shop Now ></p>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+              <h4 class="panel-title">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Customer Reviews (0)
             </a>
-          </div>
-          <!-- End ad block -->
-
-          <div class="col-sm-12 col-lg-4">
-            <!-- Start ad block -->
-            <a href="#" title="2014 Tax Central">
-              <img src="images/placeholders/fridge.jpg" class="centered-img" alt="2014 Tax Central">
-              <strong>Get Massive SAVINGS on Samsung Major Appliances this week</strong>
-              <p>Shop Now ></p>
-            </a>
-          </div>
-          <!-- End ad block -->
-
-          <div class="col-sm-12 col-lg-4 last-child">
-            <!-- Start ad block -->
-            <a href="#" title="2014 Tax Central">
-              <img src="images/placeholders/suitcases.jpg" class="centered-img" alt="2014 Tax Central">
-              <strong>SAVE UP TO 75% on stylish name brand luggage</strong>
-              <p>Shop Now ></p>
-            </a>
-          </div>
-          <!-- End ad block -->
-        </div>
-        <!--End more to explore section -->
-      </div>
+          </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel">
+              <div class="panel-body">
+                <h4>There are no ratings for this product yet.</h4>
+                <p>Tell others about your experience with this product.</p>
+              </div><!-- End panel body -->
+            </div><!-- End CollapseTwo -->
+          </div><!-- End panel for Customer reviews -->
+        </div><!-- End panel-group -->
+      </div><!-- End col-xs-12 -->
     </div><!-- End row -->
-  </div><!-- End container -->
+    <div class="row hidden-xs">
+      <div role="tabpanel"><!-- Bootstrap tabpanel -->
+          <!-- Nav tabs -->
+          <div class="col-xs-12">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+              <li role="presentation"><a href="#details" aria-controls="details" role="tab" data-toggle="tab">Details &amp; Specs</a></li>
+            </ul>
+          </div>
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="home">
+              <div class="col-md-8">
+                <!-- Start product overview -->
+                <h3>Overview</h3>
+                <p>Looking to take your gaming to another level? amiibo character figures let you open up new experiences for your game. Just tap your amiibo on the Wii U gamepad and the figure will come alive and interact with the compatible game in surprising ways. Your amiibo stores your game data as you play, letting you customize your character and gameplay.</p>
+                <h3>More Information</h3>
+                <ul>
+                  <li>amiibo figurine interacts with a compatible game to open up new game play experiences</li>
+                  <li>Your amiibo stores your game data as you play, letting you customize your character and gameplay</li>
+                  <li>Figure compatible with Super Smash Bros for Wii U</li>
+                  <li>Super Smash Bros and Wii U each sold separately</li>
+                </ul>
+              </div>
+              <!-- End product overview content -->
+              <div class="col-md-4">
+                <!-- Start more product info -->
+                <h4>What&#39;s in the box?</h4>
+                <ul>
+                  <li>Figurine</li>
+                </ul>
+                <h4>Manufacturer&#39;s Warranty:</h4>
+                <ul>
+                  <li>Parts - 30 Day(s)</li>
+                </ul>
+                <h4>Site Content Feedback</h4>
+                <p>Do you have any feedback about this page?</p>
+                <a href="#" title="Let us know.">Let us know.</a>
+              </div>
+              <!-- End more product info -->
+            </div>
+            <!-- End Overview Tab -->
+            <div role="tabpanel" class="tab-pane" id="details">
+              <div class="col-xs-12">
+                <table class="table-responsive table-striped full-width">
+                  <tr>
+                    <td>Pattern/Theme</td>
+                    <td>Super Mario Series</td>
+                  </tr>
+                  <tr>
+                    <td>Width</td>
+                    <td>12.90 cm</td>
+                  </tr>
+                  <tr>
+                    <td>Height</td>
+                    <td>19.00 cm</td>
+                  </tr>
+                  <tr>
+                    <td>Depth</td>
+                    <td>9.19 cm</td>
+                  </tr>
+                  <tr>
+                    <td>Width (Inches)</td>
+                    <td>5.08</td>
+                  </tr>
+                  <tr>
+                    <td>Depth (Inches)</td>
+                    <td>3.62 in</td>
+                  </tr>
+                  <tr>
+                    <td>Weight</td>
+                    <td>.16 g</td>
+                  </tr>
+                  <tr>
+                    <td>Warranty Parts</td>
+                    <td>30 Day(s)</td>
+                  </tr>
+                </table>
+                </div><!-- End col-xs-12 -->
+            </div><!-- End Details tab -->
+          </div><!-- End tabs-content div -->
+        </div><!-- End Bootstrap tabpanel -->
+    </div><!-- End row -->
+    <div class="row hidden-xs">
+      <div class="col-xs-12">
+        <h3>Customer Reviews</h3>
+        <hr>
+        <h4>There are no ratings for this product yet.</h4>
+        <p>Tell others about your experience with this product.</p>
+        <button class="special-button" type="button">Write a review</button>
+      </div>
+    </div>
+    <div class="row back-to-top hidden-sm hidden-md hidden-lg">
+      <div class="col-xs-12">
+        <a href="#">Back to top <i class="fa fa-arrow-up"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <h2 class="more-to-explore hidden-xs">More to Explore</h2>
+      <div class="gray-border hidden-xs">
+        <!-- Start more to explore div -->
+        <div class="col-sm-12 col-lg-4">
+          <!-- Start ad block -->
+          <a href="#" title="2014 Tax Central">
+            <img src="images/placeholders/tax-software.jpg" class="centered-img" alt="2014 Tax Central">
+            <strong>2014 TAX CENTRAL</strong>
+            <p>Simplify your taxes maximize your return</p>
+            <p>Shop Now ></p>
+          </a>
+        </div>
+        <!-- End ad block -->
+        <div class="col-sm-12 col-lg-4">
+          <!-- Start ad block -->
+          <a href="#" title="2014 Tax Central">
+            <img src="images/placeholders/fridge.jpg" class="centered-img" alt="2014 Tax Central">
+            <strong>Get Massive SAVINGS on Samsung Major Appliances this week</strong>
+            <p>Shop Now ></p>
+          </a>
+        </div>
+        <!-- End ad block -->
+        <div class="col-sm-12 col-lg-4">
+          <!-- Start ad block -->
+          <a href="#" title="2014 Tax Central">
+            <img src="images/placeholders/suitcases.jpg" class="centered-img" alt="2014 Tax Central">
+            <strong>SAVE UP TO 75% on stylish name brand luggage</strong>
+            <p>Shop Now ></p>
+          </a>
+        </div>
+        <!-- End ad block -->
+      </div>
+      <!--End more to explore div -->
+    </div>
+    <!-- End Row -->
+  </div>
+  <!-- End container -->​
 
-<section class="futureshop-wrapper">
+<div class="futureshop-wrapper">
   <!-- Start Future Shop footer -->
   <div class="bottom-navigation">
     <div class="container">
@@ -892,7 +674,7 @@
         <div class="col-md-6">
           <p>Sign up for email and get amazing deals on the hottest stuff, sent right to your inbox.</p>
           <input type="email" placeholder="Enter your email address" class="subscribe-field">
-          <button class="subscribe-button">Subscribe</button>
+          <button class="subscribe-button" type="button">Subscribe</button>
           <h4>Connect With Us</h4>
           <ul class="social-icons list-inline">
             <li>
@@ -1022,9 +804,9 @@
       </div><!-- End row -->
     </div> <!-- End container -->
   </div><!-- End bottom navigation -->
-</section><!-- End Future Shop footer -->
+</div><!-- End Future Shop footer -->
 
-<section class="bestbuy-wrapper">
+<div class="bestbuy-wrapper">
   <div class="bottom-navigation"><!-- Start Best Buy footer -->
     <div class="container">
       <div class="row visible-xs hidden-sm">
@@ -1163,9 +945,9 @@
   </div>
   <!-- End bottom-navigation -->
   <!-- End Best Buy footer -->
-</section><!-- End Best Buy Wrapper -->
+</div><!-- End Best Buy Wrapper -->
 
-<section class="futureshop-wrapper">
+<div class="futureshop-wrapper">
   <!-- Start Future Shop Footer -->
   <footer>
     <div class="container">
@@ -1188,11 +970,10 @@
       </div>
     </div>
   </footer><!-- End Future Shop Footer -->
-</section><!-- End Future Shop Wrapper -->
+</div><!-- End Future Shop Wrapper -->
 
-<section class="bestbuy-wrapper">
-  <!-- Start Best Buy Footer -->
-  <footer>
+<div class="bestbuy-wrapper">
+  <footer><!-- Start Best Buy Footer -->
     <div class="container">
       <div class="row ie8-blue-bg">
         <div class="col-md-8">
@@ -1208,9 +989,87 @@
         </div>
       </div>
     </div>
-  </footer>
-  <!-- End Best Buy Footer -->
-</section><!-- End Best Buy Wrapper -->
+  </footer><!-- End Best Buy Footer -->
+</div><!-- End Best Buy Wrapper -->
+
+<div class="modal fade" id="product-protection" tabindex="-1" role="dialog" aria-hidden="true"><!-- Start Product Protection Modal -->
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="col-md-8">
+            <p class="highlighted"><i class="fa fa-check-circle"></i> Your item has been added to cart.</p>
+            <h2>Do you want to protect your new item?</h2>
+            <h4>A service plan can pay for itself after 1 repair!</h4>
+            <ul>
+              <li>We&#39;ll fix it or replace it</li>
+              <li>Full coverage for parts, labour and accessories</li>
+              <li>If it needs more than 3 repairs, we replace it</li>
+              <li>24/7 customer service</li>
+            </ul>
+            <hr>
+            <div class="col-sm-2">
+              <img src="images/assets/geek-squad/logo-protection.png" alt="Geek Squad Protection">
+            </div>
+            <div class="col-sm-10">
+              <p>2 Year Audio Accessory Geek Squad Protection Replacement Plan (InStore) for <strong>$9.99</strong> <small>That&#39;s like $0.42/month!</small></p>
+              <select name="Plans">
+                <option value="true">2 year audio Accessory Geek Squad Protection Replacement Plan (Instore) for $9.99 -- That&#39;s like $0.42/month!</option>
+              </select>
+              <label>
+                <input type="checkbox" name="terms-and-conditions">
+                I have read and accept the <a href="#">Terms and Conditions</a> that govern this plan, and the <a href="#">Manufacturer&#39;s Warranty disclosures</a> (and in Quebec, the <a href="#">Legal Warranty disclosures</a>).
+              </label>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <img src="images/assets/geek-squad/modal-associate.png" alt="Geek Squad Associate">
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="default-button" data-dismiss="modal">No Thanks</button>
+          <button type="button" class="primary-button" data-toggle="modal" data-target="#product-protection">Yes, Add 2-Year Plan</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- End Product Protection Modal -->
+
+<div class="modal fade" id="reserve-in-store" tabindex="-1" role="dialog" aria-hidden="true"><!-- Start Modal -->
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Reserve: Select a Store</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="col-md-4"><!-- Start Store Search -->
+            <h4>Store Search</h4>
+            <p>Postal Code e.g. V5H 2C4</p>
+            <p>City eg. Toronto, ON</p>
+            <input type="text" placeholder="Enter city or postal code">
+            <button type="button">Search</button>
+            <button type="button">GPS</button>
+
+            <h4>Nearby Stores</h4>
+            <button type="button">1</button>
+            <h3>Best Buy Mobile Metrotown Centre, 2.7 km</h3>
+            <p>4820 Kingsway, Unit 228</p>
+            <p><i class="fa fa-ban"></i>No items available for reservation</p>
+            <button type="button" class="primary-button">Select</button>
+          </div><!-- End Store Search -->
+        </div>
+  <!--       <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div><!-- End Reserve in store modal -->
 
   <!-- PS: dont add any minified file below! -->
 

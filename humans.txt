@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Thales Pinheiro -- Software Architecture and Engineer
+  Adam Ginther -- Styler
+
+# THANKS
+
+
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3, SCSS, Bootstrap3, Bower, Gulp, JS, Angular
