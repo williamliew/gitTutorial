@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAkBE,sBAAE;EACA,UAAU,EAAE,wEAAwE;EACpF,SAAS,EAAE,IAAI;;AAGjB,iCAAa;EACX,OAAO,EAAE,QAAQ;;AAEjB,mCAAE;EACA,SAAS,EAAE,IAAI;;;AAKrB;iCACkC;EAChC,UAAU,EAAE,qDAAqD;;;AAGnE,YAAa;EACX,UAAU,EAAE,8CAA8C;;AAE1D,uCACS;EACP,UAAU,EAAE,oDAAoD;;;AAIpE,UAAW;EACT,OAAO,EAAE,IAAI;;;AC/Cf,+BAAgC;EAC9B,KAAK,EAAE,IAAI;;;AAQb,iCAAkC;EAChC,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,GAAG;;;AAGlB,wCAAyC;EACvC,YAAY,EAAE,CAAC;;;AAGjB,wBAAyB;EACvB,MAAM,EAAE,IAAI;;;AAGd,gCAAiC;EAC/B,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,KAAK;;;AAGd,sBAAuB;EACrB,UAAU,EAAE,MAAM;;;ACxBpB,YAAa;EACX,UAAU,ECI4B,OAAO;EDH7C,KAAK,EC6FwB,IAAM;;;ADzFrC,kBAAmB;EACjB,gBAAgB,EAAE,sCAAsC;;;AAG1D,KAAM;EACJ,GAAG,EAAE,KAAK;;;AAIV,qBAAY;EACV,UAAU,EAAE,IAAI",
-"sources": ["../../../best-buy/shame/_sprites-ie.scss","../../../core/shame/_ie8-fixes.scss","../../../best-buy/shame/ie8.scss","../../../../../../../../../Users/wliew/Documents/Web%20Dev/audacius/adamginther/nga-mccp/compare/app/styles/best-buy/base/_palette.scss"],
-"names": [],
-"file": "ie8.css"
-}
